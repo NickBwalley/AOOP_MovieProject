@@ -25,6 +25,7 @@ import javafx.stage.Stage;
  * @author nickb
  */
 public class Genres extends Application {
+    Stage genres_stage = new Stage();
     
     @Override
     public void start(Stage stage) {
@@ -71,11 +72,5 @@ public class Genres extends Application {
         
     }
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        launch(args);
-    }
     
 }

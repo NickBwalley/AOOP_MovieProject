@@ -17,7 +17,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
-import javafx.scene.layout.StackPane;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
@@ -26,6 +25,8 @@ import javafx.stage.Stage;
  * @author nickb
  */
 public class Movies extends Application {
+    
+    Stage movie_stage = new Stage();
     
     @Override
     public void start(Stage stage) {
@@ -87,16 +88,7 @@ public class Movies extends Application {
         stage.setTitle("Movie Library System");
         stage.setScene(scene);
         stage.show();
-        
-       
-        
-    }
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        launch(args);
+                     
     }
     
 }

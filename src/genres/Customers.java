@@ -26,6 +26,7 @@ import javafx.stage.Stage;
  * @author nickb
  */
 public class Customers extends Application {
+    Stage customers_stage = new Stage();
     
     @Override
     public void start(Stage stage) {
@@ -86,13 +87,6 @@ public class Customers extends Application {
         
        
         
-    }
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        launch(args);
     }
     
 }

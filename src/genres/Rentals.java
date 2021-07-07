@@ -27,6 +27,8 @@ import javafx.stage.Stage;
  */
 public class Rentals extends Application {
     
+    Stage rentals_stage = new Stage();
+    
     @Override
     public void start(Stage stage) {
         
@@ -98,13 +100,6 @@ public class Rentals extends Application {
         
        
         
-    }
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        launch(args);
     }
     
 }
